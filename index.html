@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Che' Che' Café · Menú y cómo llegar</title>
+<meta name="description" content="Menú de Che' Che' Café y cómo llegar a cada sucursal en CDMX.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Gordita';src:url('fonts/Gordita-Regular.otf') format('opentype');font-weight:400}
+@font-face{font-family:'Gordita';src:url('fonts/Gordita-Medium.otf') format('opentype');font-weight:500}
+@font-face{font-family:'Gordita';src:url('fonts/Gordita-Bold.otf') format('opentype');font-weight:700}
+:root{
+  --olive:#484930; --olive-dark:#333420; --terracotta:#B17B56; --terracotta-hover:#9A6744;
+  --sage:#9EA38A; --sand:#C6C3B2; --cream:#F2EFE6; --deep:#1C1C14; --white:#fff;
+  --display:'Cormorant Garamond',Georgia,serif; --sans:'Gordita',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+body{background:var(--olive);color:var(--cream);font-family:var(--sans);line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:560px;margin:0 auto;padding:40px 16px 56px}
+header{text-align:center;margin-bottom:28px}
+header img{width:120px;height:auto;margin-bottom:14px}
+header h1{font-family:var(--display);font-weight:600;font-size:2rem;line-height:1.1}
+header p{color:var(--sand);font-size:.95rem;margin-top:6px}
+.hours{background:var(--olive-dark);border-radius:14px;padding:14px 18px;margin-bottom:22px;font-size:.9rem}
+.hours b{display:block;font-weight:500;color:var(--sage);text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;margin-bottom:6px}
+.hours div{display:flex;justify-content:space-between;padding:2px 0}
+h2{font-family:var(--display);font-weight:600;font-size:1.5rem;margin:30px 0 12px}
+.btn{display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--cream);color:var(--deep);text-decoration:none;border-radius:14px;padding:15px 18px;margin-bottom:10px;font-weight:500;min-height:52px}
+.btn small{display:block;font-weight:400;color:#6b6d48;font-size:.78rem}
+.btn:hover,.btn:focus-visible{background:var(--white)}
+.btn:focus-visible,.tab:focus-visible{outline:3px solid var(--terracotta);outline-offset:2px}
+.btn .go{color:var(--terracotta);font-weight:700;white-space:nowrap}
+.btn.cta{background:var(--terracotta);color:var(--white)}
+.btn.cta small{color:#f4e6dc}
+.btn.cta .go{color:var(--white)}
+.btn.cta:hover{background:var(--terracotta-hover)}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;margin-bottom:6px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;border:1px solid var(--sage);background:transparent;color:var(--cream);font:500 .85rem var(--sans);padding:9px 14px;border-radius:999px;cursor:pointer}
+.tab[aria-selected=true]{background:var(--cream);color:var(--deep);border-color:var(--cream)}
+.cat{display:none}
+.cat.on{display:block}
+.item{display:flex;justify-content:space-between;gap:14px;padding:12px 0;border-bottom:1px solid rgba(198,195,178,.25)}
+.item .n{font-weight:500}
+.item .d{color:var(--sand);font-size:.8rem}
+.item .p{font-weight:500;white-space:nowrap}
+.fav{color:var(--terracotta);font-size:.75rem;margin-left:4px}
+.legend{color:var(--sand);font-size:.78rem;margin-top:12px}
+footer{text-align:center;color:var(--sand);font-size:.78rem;margin-top:36px}
+footer a{color:var(--cream)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="logo-cream.png" alt="Che' Che' Café">
+    <h1>Café, diseño y oasis</h1>
+    <p>Santa María la Ribera · Tabacalera · Centro · Del Valle</p>
+  </header>
+
+  <section class="hours" aria-label="Horarios">
+    <b>Horarios</b>
+    <div><span>Lunes a jueves</span><span>7:30 a 21:00</span></div>
+    <div><span>Viernes</span><span>7:30 a 22:00</span></div>
+    <div><span>Sábado y domingo</span><span>9:00 a 22:00</span></div>
+  </section>
+
+  <h2>Cómo llegar</h2>
+  <a class="btn" data-track="maps-santa-maria" href="https://www.google.com/maps/place/Che+Che+Caf%C3%A9/data=!4m7!3m6!1s0x85d1f953e4bd7431:0xe7fa1fc0f74c21c8!8m2!3d19.4481714!4d-99.1542853!16s%2Fg%2F11v19lcyd2"><span>Santa María la Ribera</span><span class="go">Abrir mapa →</span></a>
+  <a class="btn" data-track="maps-jardin" href="https://www.google.com/maps/place/Che+Che+Caf%C3%A9+%7C+Jard%C3%ADn/data=!4m7!3m6!1s0x85d1f9c2d7d95aad:0x127cc3840b8eccf8!8m2!3d19.4501148!4d-99.1610219!16s%2Fg%2F11msnmzqrp"><span>Che' Che' Jardín<small>Santa María la Ribera</small></span><span class="go">Abrir mapa →</span></a>
+  <a class="btn" data-track="maps-tabacalera" href="https://www.google.com/maps/place/Che+Che+Caf%C3%A9/data=!4m7!3m6!1s0x85d1f90039680a6b:0x4ae7fae3af1d3d46!8m2!3d19.4389001!4d-99.1558311!16s%2Fg%2F11y2gpjdpz"><span>Tabacalera</span><span class="go">Abrir mapa →</span></a>
+  <a class="btn" data-track="maps-centro" href="https://www.google.com/maps/place/Che+Che+Caf%C3%A9/data=!4m7!3m6!1s0x85d1f9a1ce55cc99:0x6d034891c2fc422a!8m2!3d19.4351227!4d-99.1327956!16s%2Fg%2F11x6rsdb22"><span>Centro</span><span class="go">Abrir mapa →</span></a>
+  <a class="btn" data-track="maps-del-valle" href="https://www.google.com/maps/place/Che+Che+Caf%C3%A9+%28To+Go%29/data=!4m7!3m6!1s0x85d1ff4b9a0a1fc5:0xa305123363cf34d4!8m2!3d19.373428!4d-99.1607972!16s%2Fg%2F11y3hl1751"><span>Del Valle<small>To Go</small></span><span class="go">Abrir mapa →</span></a>
+
+  <h2>Menú</h2>
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div id="menu"></div>
+  <p class="legend"><span class="fav">★</span> Favoritos de la casa. Precios en pesos mexicanos, sujetos a cambio.</p>
+
+  <h2>Únete al equipo</h2>
+  <a class="btn cta" data-track="vacantes" href="https://forms.gle/iT1K5jNpBgtkhhU28"><span>Vacantes<small>Baristas, cocina y más</small></span><span class="go">Aplica aquí →</span></a>
+
+  <footer>
+    <a href="https://www.instagram.com/cheche.cafe/">@cheche.cafe</a>
+  </footer>
+</div>
+
+<script>
+const MENU = {
+  "Café":[["Americano",49],["Capuchino",66],["Flat White",62],["Latte",71],["Frappé",89],["Paraíso",98,1],["Receta Secreta",80,1,"Café o chocolate"],["El Veracruzano",89],["Horchata-Café",53,1],["Espresso",35],["Cold Brew",53],["Espresso Tonic",71],["Moka",71]],
+  "Sin café":[["Té",53],["Limonada",62],["Jugo Verde",71],["Matcha",65],["Papaya Playa",80,1],["Chai",66],["La Chimba",80,1],["Chocolate",66]],
+  "Todo el día":[["Chilaquiles V/R",125],["Burritos Cochinita",152],["Molletes Cochinita",162],["Sándwich Cubanito",170,1],["Sándwich Barcelona",161,1],["Sándwich de Tocino",161,1],["Montecristo",170,1]],
+  "Ligeros":[["Bowl Frutos Rojos",152],["Toast Aguacate",134,1],["Toast Hummus",134]],
+  "Pan dulce":[["Croissant",80],["Cruffin",80,1],["Croissant Cubo",80,1],["Roles",80],["Galletas / Cookies",53,0,"Choc-sal, arándano, avena o triple choc"],["Donas",53],["Pan Dulce",70]],
+  "Combos":[["Combo Galleta",71,0,"Bebida + galleta"],["Combo Concha",62,0,"Bebida + concha"],["Combo Panqué",62,0,"Bebida + panqué"]],
+  "Coctelería":[["Jardín Prohibido",107,0,"Romero, Eureka, jengibre, tónica"],["Vista Al Mar",107,0,"Toronja, pepino, romero, tónica, limón"],["Club Paraíso",107,0,"Piña, romero, Eureka, jengibre, limón"],["Cielo Azul",107,0,"Toronja, curaçao, limón, mineral"],["Suero",80],["Michelada",98],["Cerveza",80]]
+};
+const tabs=document.getElementById('tabs'), menu=document.getElementById('menu');
+Object.entries(MENU).forEach(([cat,items],i)=>{
+  const b=document.createElement('button');
+  b.className='tab';b.role='tab';b.textContent=cat;b.setAttribute('aria-selected',i===0);
+  b.onclick=()=>{document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',t===b));document.querySelectorAll('.cat').forEach((c,j)=>c.classList.toggle('on',j===i))};
+  tabs.appendChild(b);
+  const s=document.createElement('section');s.className='cat'+(i===0?' on':'');
+  s.innerHTML=items.map(([n,p,f,d])=>`<div class="item"><div><div class="n">${n}${f?'<span class="fav">★</span>':''}</div>${d?`<div class="d">${d}</div>`:''}</div><div class="p">$${p}</div></div>`).join('');
+  menu.appendChild(s);
+});
+</script>
+</body>
+</html>
